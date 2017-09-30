@@ -1,2 +1,2 @@
 # Tasks
-Мои решения задач
+Solving tasks from different sources
