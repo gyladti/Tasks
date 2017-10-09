@@ -9,3 +9,10 @@ def palindrome_chain_length(n):
         pol += int(str(pol)[::-1])
         count += 1
     return count  
+
+# Рекурсия ляпота best solution
+
+def palindrome_chain_length(n, count=0):
+    if str(n) == str(n)[::-1]: return count
+    else: return palindrome_chain_length(n + int(str(n)[::-1]), count+1)
+    
